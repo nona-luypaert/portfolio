@@ -330,6 +330,10 @@ section {
   margin-bottom: 0;
 }
 
+ul {
+  list-style: none;
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -465,7 +469,7 @@ section {
 }
 
 .opleiding .resume-item {
-  padding: 0 0 20px 20px;
+  padding: 0 0 20px 20px !important;
   margin-top: -2px;
   border-left: 2px solid #1f5297;
   position: relative;
@@ -498,10 +502,6 @@ section {
   padding-bottom: 10px;
 }
 
-.opleiding .resume-item:last-child {
-  padding-bottom: 0;
-}
-
 .opleiding .resume-item::before {
   content: "";
   position: absolute;
@@ -526,7 +526,7 @@ section {
 }
 
 .ervaring .resume-item {
-  padding: 0 0 20px 20px;
+  padding: 0 0 20px 20px !important;
   margin-top: -2px;
   border-left: 2px solid #1f5297;
   position: relative;
@@ -557,10 +557,6 @@ section {
 
 .ervaring .resume-item ul li {
   padding-bottom: 10px;
-}
-
-.ervaring .resume-item:last-child {
-  padding-bottom: 0;
 }
 
 .ervaring .resume-item::before {
